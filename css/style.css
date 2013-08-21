@@ -1,0 +1,165 @@
+			body {
+				font-family: 'Open Sans Condensed', sans-serif;
+				color: #3e3e3e;
+				content : "";
+				background-color: #f3f3f3;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#main-content{
+				width: 60%;
+				margin: 0 auto;
+			}
+						
+			h1 {
+				text-shadow: 2px 2px 2px #111;
+			}
+			
+						
+			h2{
+				margin-bottom: 10px;
+			}
+			
+			h4{
+				margin-bottom: 0.1em;
+			}
+			
+			h1, h2, h3, h4{
+				font-family: "Della Respira", serif;
+			}
+
+			ul#gallery {
+				margin: 10% auto;
+				width: 100%;
+			}
+			
+			ul#gallery li{
+				width: 20%;
+				list-style-type: none;
+				float: left;
+			}
+						
+			nav{
+				margin-left: auto;
+				margin-right: 0;
+				width: 50%;
+				list-style-type: none;
+				float: right;
+			}
+
+			nav ul li{
+				width: 30%; 
+				float: left;
+				list-style-type: none;
+			}
+
+			nav ul a{
+				background-image: #f3f3f3;
+				color: #3e3e3e;
+				height: 50px;
+				line-height: 50px;
+				display: block;
+				text-align: center;
+				text-transform: capitalize;
+				font-family: "Della Respira", serif;
+			}
+
+			nav ul a:hover{
+				background-image: url("../images/stars.jpg");
+				color: #f3f3f3;
+			}
+			
+			section#one {
+				margin-bottom: 10px;
+				clear: left;
+				color: white;
+				background-image: url("../images/stars.jpg");
+			}
+			
+			section#two {
+				-moz-column-count: 3;
+				margin-bottom: 10px;
+				clear: left;
+			}
+			
+			h3 {
+				clear: left;
+			}
+			
+			img{
+				max-width: 100%;
+			}
+			
+			
+			
+			/*---------------------Media Queries-----------------------*/			
+			
+			@media screen and (max-width: 1210px) {
+				nav{
+					width: 55%;
+				}
+				
+				ul#gallery li{
+					width: 30%;
+				}
+			}
+			
+			
+			@media screen and (max-width: 912px) {
+				nav{
+					width: 70%;
+				}
+				
+				h1 {
+					width: 30%;
+				}
+				
+				#main-content{
+					width: 90%;
+				}
+
+			}
+			
+			@media screen and (max-width: 714px) {
+				nav{
+					width: 80%;
+				}
+				
+				h1 {
+					width: 100%;
+				}
+				
+				#main-content{
+					width: 90%;
+				}
+				
+				p{
+					font-size: .75em
+				}
+			}
+			
+			@media screen and (max-width: 605px) {
+				
+				nav{
+					width: 100%;
+					margin: 5% auto;
+				}
+				
+				h1 {
+					margin-top: 0;
+					width: 100%;
+					float: none;
+				}
+
+				#main-content{
+					width: 90%;
+				}
+				
+				ul#gallery li{
+					width: 50%;
+				}
+				
+				section#two{
+					-moz-column-count: 1;
+				}
