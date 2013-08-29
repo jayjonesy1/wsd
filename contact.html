@@ -22,12 +22,31 @@
 				<h1>Doctor Who</h1>
 			</header>
 							
-				<h2>Contact Us</h2>
-
 			<section>
 
-				<p>PLACE FORM HERE!!!!</p>
+	<form id=contact method="post" action="mailto:jayjonesy91@gmail.com">
+		<fieldset>
+			<legend><h2>Contact Us</h2></legend>
+
+				<label for=name>Name</label>
+			<div>	
+				<input id=name name=name type=text placeholder="First and last name" required autofocus>
+			</div>
 				
+				<label for=email>Email</label>
+			<div>
+				<input id=email name=email type=email placeholder="example@domain.com" required>
+			</div>
+			
+				<label for=comment>Comment</label>
+			<div>	
+				<textarea id=comment name=comment rows=5 required></textarea>
+			</div>
+			
+		</fieldset>
+		
+			<input id=submit type="submit">
+	</form>				
 			</section>
 
 			<footer>
